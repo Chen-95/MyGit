@@ -1,0 +1,46 @@
+body,html{
+    background: rgb(224, 222, 222);
+}
+#vue-app{
+    margin: 50px auto;
+    width: 600px;
+}
+fieldset{
+    border: 3px solid orange;
+}
+fieldset legend{
+    color: red;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+}
+fieldset input{
+    width: 250px;
+    height: 30px;
+    margin: 5px 0;
+    padding-left: 3px;
+    border: 1px solid #000;
+}
+fieldset button{
+    background:rgba(30, 143, 255, 0.719);
+    border: 0;
+    height: 30px;
+    width: 100px;
+    margin: 5px
+}
+table{
+    width: 600px;
+    border: 3px solid orange;
+    text-align: center;
+    margin-top: 30px;
+}
+thead{
+    background: orange;
+    font-weight: 600;
+}
+table button{
+    background:rgba(30, 143, 255, 0.719);
+    border: 0;
+    height: 30px;
+    width: 60px;
+}
